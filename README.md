@@ -39,3 +39,9 @@ Before working with Telegram’s API, you need to get your own API ID and hash:
     3. `heroku container:push worker`
     4. `heroku container:release worker`
 6. Your bot has been sucessfully deployed on heroku.
+
+
+## Using Shared Drive
+
+If you are using Shared Drive Id along with service account then you need to give permission to service account user by adding as a user in shared drive. After that only service account will be allowed to access shared drive Id.
+    
