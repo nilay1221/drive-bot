@@ -17,6 +17,15 @@ Before working with Telegram’s API, you need to get your own API ID and hash:
 4. From the dropdown menu, select New service account. Enter a name for your service account.
 5. Select your preferred key type and click Create. Your new public/private key pair is generated and downloaded to your machine and is the only copy of this key. You are responsible for storing it securely.
 
+# How to Run
+
+1. git clone `https://github.com/nilay1221/drive-bot.git`
+2. cd `drive-bot`
+3. Add your API ID , API HASH , BOT TOKEN in bot.py file.
+4. Add Service Account Credentials file in current project directory and add its PATH in drive_upload.py
+5. Add Shared Drive's id in drive_upload.py if using Shared Drive
+6. Run bot.py
+
 # How to deploy on Heroku ?
 
 1. Add your API ID , API HASH , BOT TOKEN in bot.py file.
