@@ -24,7 +24,8 @@ Before working with Telegram’s API, you need to get your own API ID and hash:
 3. Add your API ID , API HASH , BOT TOKEN in bot.py file.
 4. Add Service Account Credentials file in current project directory and add its PATH in drive_upload.py
 5. Add Shared Drive's id in drive_upload.py if using Shared Drive
-6. Run bot.py
+6. Run `pip3 install -r requirements.txt`
+6. Run `python3 bot.py`
 
 # How to deploy on Heroku ?
 
