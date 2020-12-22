@@ -14,8 +14,8 @@ COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 COPY ./build/aes.py ../../local/lib/python3.8/dist-packages/telethon/crypto/aes.py
 RUN mkdir ./uploads
-COPY bot.session hello.py downloader.py drive_upload.py service.json  ./
+COPY bot.session bot.py downloader.py drive_upload.py service.json  ./
 
 
 
-CMD ["python3","hello.py"]
+CMD ["python3","bot.py"]
